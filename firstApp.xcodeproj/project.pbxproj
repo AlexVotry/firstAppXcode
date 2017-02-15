@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FAE82BE71E54E17300C0D38B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE82BE61E54E17300C0D38B /* AppDelegate.swift */; };
-		FAE82BE91E54E17300C0D38B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE82BE81E54E17300C0D38B /* ViewController.swift */; };
 		FAE82BEC1E54E17300C0D38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE82BEA1E54E17300C0D38B /* Main.storyboard */; };
 		FAE82BEE1E54E17300C0D38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE82BED1E54E17300C0D38B /* Assets.xcassets */; };
 		FAE82BF11E54E17300C0D38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE82BEF1E54E17300C0D38B /* LaunchScreen.storyboard */; };
+		FAE82BF91E54EE9900C0D38B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE82BF81E54EE9900C0D38B /* MainViewController.swift */; };
+		FAE82BFB1E54FB8900C0D38B /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE82BFA1E54FB8900C0D38B /* AboutMeViewController.swift */; };
+		FAE82BFD1E5510B800C0D38B /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE82BFC1E5510B800C0D38B /* FirstTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAE82BE31E54E17300C0D38B /* firstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE82BE61E54E17300C0D38B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAE82BE81E54E17300C0D38B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAE82BEB1E54E17300C0D38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE82BED1E54E17300C0D38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE82BF01E54E17300C0D38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE82BF21E54E17300C0D38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE82BF81E54EE9900C0D38B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FAE82BFA1E54FB8900C0D38B /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		FAE82BFC1E5510B800C0D38B /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				FAE82BE61E54E17300C0D38B /* AppDelegate.swift */,
-				FAE82BE81E54E17300C0D38B /* ViewController.swift */,
 				FAE82BEA1E54E17300C0D38B /* Main.storyboard */,
 				FAE82BED1E54E17300C0D38B /* Assets.xcassets */,
 				FAE82BEF1E54E17300C0D38B /* LaunchScreen.storyboard */,
 				FAE82BF21E54E17300C0D38B /* Info.plist */,
+				FAE82BF81E54EE9900C0D38B /* MainViewController.swift */,
+				FAE82BFA1E54FB8900C0D38B /* AboutMeViewController.swift */,
+				FAE82BFC1E5510B800C0D38B /* FirstTableViewController.swift */,
 			);
 			path = firstApp;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE82BE91E54E17300C0D38B /* ViewController.swift in Sources */,
+				FAE82BFD1E5510B800C0D38B /* FirstTableViewController.swift in Sources */,
 				FAE82BE71E54E17300C0D38B /* AppDelegate.swift in Sources */,
+				FAE82BFB1E54FB8900C0D38B /* AboutMeViewController.swift in Sources */,
+				FAE82BF91E54EE9900C0D38B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
