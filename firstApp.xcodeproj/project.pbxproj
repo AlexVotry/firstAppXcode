@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAE182191E5634CF0070AD40 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE182181E5634CF0070AD40 /* Site.swift */; };
 		FAE82BE71E54E17300C0D38B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE82BE61E54E17300C0D38B /* AppDelegate.swift */; };
 		FAE82BEC1E54E17300C0D38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE82BEA1E54E17300C0D38B /* Main.storyboard */; };
 		FAE82BEE1E54E17300C0D38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE82BED1E54E17300C0D38B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAE182181E5634CF0070AD40 /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
 		FAE82BE31E54E17300C0D38B /* firstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE82BE61E54E17300C0D38B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE82BEB1E54E17300C0D38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				FAE82BF81E54EE9900C0D38B /* MainViewController.swift */,
 				FAE82BFA1E54FB8900C0D38B /* AboutMeViewController.swift */,
 				FAE82BFC1E5510B800C0D38B /* FirstTableViewController.swift */,
+				FAE182181E5634CF0070AD40 /* Site.swift */,
 			);
 			path = firstApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE82BFD1E5510B800C0D38B /* FirstTableViewController.swift in Sources */,
+				FAE182191E5634CF0070AD40 /* Site.swift in Sources */,
 				FAE82BE71E54E17300C0D38B /* AppDelegate.swift in Sources */,
 				FAE82BFB1E54FB8900C0D38B /* AboutMeViewController.swift in Sources */,
 				FAE82BF91E54EE9900C0D38B /* MainViewController.swift in Sources */,
@@ -308,6 +312,7 @@
 				FAE82BF71E54E17300C0D38B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
