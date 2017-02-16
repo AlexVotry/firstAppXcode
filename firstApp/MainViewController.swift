@@ -9,18 +9,22 @@
 import UIKit
 
 class MainViewController: UIViewController {
-    
+
     //MARK: Properties
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var mainImage: UIImageView!
-    
-    var siteName: String?
-    
+
+    var site: Site?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        mainLabel.text = siteName
-        mainImage.image = #imageLiteral(resourceName: "team")
+        if let s = site {
+          mainLabel.text = s.name
+          if let img = s.siteImage {
+            mainImage.image = img
+          }
+        }
     }
 
     // MARK: Actions

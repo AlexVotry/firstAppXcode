@@ -10,16 +10,39 @@ import UIKit
 
 class FirstTableViewController: UITableViewController {
 
-    var siteNames: [String]?
-//    var sitePics: [Ob]?
+    var sites: [Site]?
+//    var sitePics: [UIImage]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-          siteNames = ["team", "Kim&Kale", "Winners", "Crazy Seattle"]
+
+        let site1 = Site()
+        let site2 = Site()
+        let site3 = Site()
+        let site4 = Site()
+
+
+       site1.name = "Team"
+       site1.siteImage = #imageLiteral(resourceName: "Winners")
+       site1.cellImage = #imageLiteral(resourceName: "team")
+
+       site2.name = "Kale"
+       site2.siteImage = #imageLiteral(resourceName: "ToshKale")
+       site2.cellImage = #imageLiteral(resourceName: "Kim&Kale")
+
+       site3.name = "Racing"
+       site3.siteImage = #imageLiteral(resourceName: "oldTrack")
+       site3.cellImage = #imageLiteral(resourceName: "trackRacing")
+
+       site4.name = "Seattle"
+       site4.siteImage = #imageLiteral(resourceName: "BlackFlag")
+       site4.cellImage = #imageLiteral(resourceName: "CrazySeattle")
+
+      sites = [site1, site2, site3, site4]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let totalRows = siteNames?.count {
+        if let totalRows = sites?.count {
             return totalRows
         }
         return 0
@@ -28,11 +51,18 @@ class FirstTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "SiteCell", for: indexPath)
-        let siteName = siteNames?[indexPath.row]
-
-        if let cellName = siteName {
-            cell.textLabel?.text = cellName
-//            cell.imageView?.image = siteName.image
+        let site = sites?[indexPath.row]
+        // guard
+        // ((cell.textLabel?.text = site?.name) != nil),
+        // ((cell.imageView?.image = site?.cellImage) != nil)
+        //  else {
+        //     return
+        // }
+        if let s = site {
+            cell.textLabel?.text = s.name
+            if let img = s.cellImage {
+              cell.imageView?.image = img
+            }
         }
         return cell
     }
@@ -47,7 +77,7 @@ class FirstTableViewController: UITableViewController {
          else {
             return
         }
-        siteViewController?.siteName = siteNames?[indexPath.row]
+        siteViewController?.site = sites?[indexPath.row]
         }
     }
 }

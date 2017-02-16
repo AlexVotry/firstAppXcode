@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit
+
+class Site {
+    var name: String?
+    var siteImage: UIImage?
+    var cellImage: UIImage?
+}
