@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="And-t2-2sL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0Ov-y9-OMm">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,23 +22,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qjb-mF-XoG">
-                                <rect key="frame" x="5" y="160" width="365" height="347"/>
+                                <rect key="frame" x="5" y="160" width="365" height="303"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="names" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wED-i5-wh3">
-                                        <rect key="frame" x="137.5" y="0.0" width="90" height="41"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="names" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wED-i5-wh3">
+                                        <rect key="frame" x="137.5" y="0.0" width="90" height="0.0"/>
                                         <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="29"/>
                                         <color key="textColor" red="0.77485489249999995" green="0.2151063258" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="team" translatesAutoresizingMaskIntoConstraints="NO" id="mx6-el-SRc">
-                                        <rect key="frame" x="0.0" y="41" width="365" height="243"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="team" translatesAutoresizingMaskIntoConstraints="NO" id="mx6-el-SRc">
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="243"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="365" id="715-9D-Xpr"/>
                                             <constraint firstAttribute="height" constant="243" id="B7A-Eg-wB0"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05w-QB-EqB">
-                                        <rect key="frame" x="90.5" y="284" width="184" height="63"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05w-QB-EqB">
+                                        <rect key="frame" x="90.5" y="243" width="184" height="60"/>
                                         <state key="normal" image="addToCart">
                                             <attributedString key="attributedTitle"/>
                                         </state>
@@ -153,7 +153,7 @@ I’m good at seeing the big picture and understanding how to get there.  I enjo
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xrj-ZS-EBI" id="1qH-KF-xJL">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -173,21 +173,6 @@ I’m good at seeing the big picture and understanding how to get there.  I enjo
             <point key="canvasLocation" x="3330.4000000000001" y="-327.88605697151428"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="waq-gR-LOP">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VDv-bo-csS" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GVn-Xi-lz3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hVE-UP-feb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1452" y="-327.88605697151428"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="H9i-jd-wAb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="And-t2-2sL" sceneMemberID="viewController">
@@ -204,6 +189,36 @@ I’m good at seeing the big picture and understanding how to get there.  I enjo
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PiE-2b-jPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2391.1999999999998" y="-327.88605697151428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UQ2-yA-Ik9">
+            <objects>
+                <viewController id="0Ov-y9-OMm" customClass="APIViewController" customModule="firstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XFb-GD-POw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lar-EM-Q7Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z1A-CR-mCT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Data from API" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3M8-26-eSi">
+                                <rect key="frame" x="16" y="217" width="343" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="apiData" destination="3M8-26-eSi" id="vKo-pz-3mh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1kU-bc-i0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2408.8000000000002" y="300"/>
         </scene>
     </scenes>
     <resources>
